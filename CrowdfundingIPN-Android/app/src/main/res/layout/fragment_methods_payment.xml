@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ipn1"
+    tools:context=".MethodsPaymentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/recyclerview_metodos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+
+        android:layout_marginTop="400dp"
+        app:fab_addButtonColorNormal="@color/color2"
+        app:fab_labelStyle="@style/etiqueta"
+        app:fab_addButtonColorPressed="@color/colorPrimaryDark"
+
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/agrega_Paypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            app:fab_colorNormal="@color/colorPrimaryDark"
+            app:fab_icon="@drawable/ic_add"
+            app:fab_title="Registra Paypal"
+            app:fab_colorPressed="@color/color2"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/agrega_Tarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            
+            app:fab_colorNormal="@color/colorPrimaryDark"
+            app:fab_icon="@drawable/ic_add"
+            app:fab_title="Registra Tarjeta"
+            app:fab_colorPressed="@color/color2"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</RelativeLayout>

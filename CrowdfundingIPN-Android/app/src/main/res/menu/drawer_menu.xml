@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/ic_profile"
+            android:title="Mi perfil" />
+    </group>
+    <item android:title="Proyectos">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/my_projects"
+                android:icon="@drawable/ic_my_projects"
+                android:title="Mis Proyectos" />
+            <item
+                android:id="@+id/projects"
+                android:icon="@drawable/ic_projects"
+                android:title="Proyectos" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Métodos de pago">
+        <menu>
+            <item
+                android:id="@+id/metodospayment"
+                android:icon="@drawable/ic_action_pass"
+                android:title="Mis métodos de pago" />
+        </menu>
+    </item>
+    <item android:title="Colaboradores">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/collaborator_profile"
+                android:icon="@drawable/ic_collaborators"
+                android:title="Perfil de Colaborador" />
+            <item
+                android:id="@+id/request"
+                android:icon="@drawable/ic_requests"
+                android:title="Solicitudes" />
+            </group>
+        </menu>
+    </item>
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_logout"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+
+
+</menu>
