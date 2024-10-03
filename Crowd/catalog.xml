@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.20.153:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.153_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://192.168.20.153:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.153_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+    <system systemId="http://192.168.20.97:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.97_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://192.168.20.97:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.97_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+    <system systemId="http://192.168.20.91:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.91_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://192.168.20.91:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.91_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+    <system systemId="http://192.168.20.75:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.75_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://192.168.20.75:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion_1/wsdl/192.168.20.75_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+    <system systemId="http://192.168.0.15:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion/wsdl/192.168.0.15_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://192.168.0.15:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion/wsdl/192.168.0.15_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+    <system systemId="http://192.168.20.192:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion/wsdl/192.168.20.192_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://192.168.20.192:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion/wsdl/192.168.20.192_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/webServiceCrowd/wsInicioSesion?WSDL" uri="src/conf/xml-resources/web-service-references/wsInicioSesion/wsdl/localhost_8080/webServiceCrowd/wsInicioSesion.wsdl"/>
+    <system systemId="http://localhost:8080/webServiceCrowd/wsInicioSesion?xsd=1" uri="src/conf/xml-resources/web-service-references/wsInicioSesion/wsdl/localhost_8080/webServiceCrowd/wsInicioSesion.xsd_1.xsd"/>
+</catalog>

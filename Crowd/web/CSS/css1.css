@@ -1,0 +1,585 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/11/2018, 11:34:32 PM
+    Author     : Juan Antonio Chavez Xolalpa
+                Derechos reservados por Novasoft S.A. de C.V.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+object{
+   bottom: 0;
+}
+
+/*ACCESOS RAPIDOS*/
+a href,h5{
+    color: white;
+}
+#opcs{
+    
+    background: #4b1a21;
+    color:#fff;
+    
+    text-align: center;
+    padding: 20px;
+}
+#opcsTXT{
+    
+    
+    color:#fff;
+    
+    text-align: center;
+    padding: 20px;
+}
+#divpro{
+    
+    background:#0091ea;
+    color:#fff;
+  
+    
+    text-align: center;
+    padding: 20px;
+}
+.opc{
+    margin: 20px;
+   
+}
+#opcs .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.opc img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+.proye{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    background: white;
+    float: right;
+    clear: none;
+}
+@media (min-width:480px){
+    .opc{
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .opc{
+        width: auto;
+    }
+}
+
+/*DIV QUE ES CROWD*/
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+#bienvenidos{
+    text-align: center;
+}
+/*contacto*/
+#contenido{
+    width: 100%;
+    background-color: #6e1217;
+    overflow: hidden;
+    color: white;
+}
+.form-register{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background: #6e1217;     
+    
+}
+#empareja{
+    position: absolute;
+    margin:0 20%;
+    padding: 0;
+    color: white;
+    font-size: 3em;
+}   
+.contenedor-inputs{
+    padding: 0 30px;
+}
+#caja{
+    width: 100%;
+    display: none;
+    height: 0px;
+    background: white;
+    transition: height .7s;
+}
+#aparece{
+    margin: auto 80%;
+    overflow:hidden;
+    display: inline-block;
+    width: 20%;
+    align-items: center;   
+    color: black;
+}
+
+/*footer*/
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: white;
+    background: #333;
+    width: 100%;
+}
+.copy{
+    font-size: 20px;
+    
+}
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+        
+}
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+@media (min-width:768px){
+    .sociales{
+        width: auto;
+    }
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}
+
+#infos{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    color:#fff;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+}
+#letra{
+    width: 98%;
+    margin: auto;
+}
+#faq{
+    padding-left: 12%;
+    width: 90%;
+    
+    
+}
+summary {
+    cursor: pointer;
+    font-weight: 700;
+}
+summary::-webkit-details-marker {
+   
+}
+details[open] {
+    /* the style goes here */
+    background-color: #f6f7f8;
+    color: black;
+}
+details {
+    font-family: sans-serif;
+    color: white;
+    padding: 15px;
+    background-color: #4b1a21;
+    margin-bottom: 20px;
+}
+.bandera{
+   width: 90%;
+    margin: auto; 
+}
+
+#despliegaproye{
+    background: #2E2E2E;
+    color:black;
+    text-align: left;
+    padding: 20px;
+}
+#despliegaproye2{
+    background: white;
+    color:black;
+    text-align: left;
+    padding: 20px;
+}
+#despliegaproye2 .bandera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+#despliegaproye3{
+    background: white;
+    color:black;
+    text-align: right;
+    padding: 20px;
+}
+#despliegaproye3 .bandera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.info-des{
+    margin: 20px;
+}
+.info-des2{
+    margin: 20px;
+}
+#despliegaproye .bandera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 400px;
+}
+.card-image{
+    width: 399px;
+    height: 500px;
+}
+#cardForo{
+    width: 900px;
+    height: 250px;
+}
+#cardInfoForo{
+    margin-top: -30%;
+    margin-left: 30%;
+}
+
+.squa{
+    margin: auto;
+}
+#cardCol{
+    width: 399px;
+    height: 19px;
+}
+#cardColaborador{
+    width: 400px;
+    height: 200px;
+}
+.info-des img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    border:5px solid #FAFAFA;
+    
+    
+}
+.info-des2 img{
+    width: 400px;
+    height: 200px;
+    
+    border:5px solid #FAFAFA;
+    
+    
+}
+
+@media (min-width:480px){
+    .info-des{
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .info-des{
+        width: auto;
+    }
+}@media (min-width:480px){
+    .info-des2{
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .info-des2{
+        width: auto;
+    }
+}
+#botonSolCol{
+    background: #6e1217;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*ESTILO DE IMAGENES DE INICIO POR MODULO*/
+#banner{
+    
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    
+}
+#banner .banderita{
+    position: absolute;
+    top: 20%;
+    left:  55%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+#banner h2{
+    font-size: 28px;
+}
+
+
+@media (min-width:480px){
+    #banner h2{
+        font-size: 48px;
+    }
+   
+}
+@media (min-width:768px){
+    #banner{
+        height: 500px;
+        overflow: hidden;
+    }
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+@media (min-width:1024px){
+    #banner img{
+        margin-top: -500px;
+    }
+    #banner .banderita{
+        left: 85%;
+    }
+}
+.banderita{
+   
+    width: 98%;
+    margin: auto;
+
+}
+
+
+/*OPCIONES EN INFORMACION DE USUARIO*/
+/*Servicios*/
+
+.servicio{
+    position: relative;
+   overflow: hidden;
+   margin: 0;
+}
+.servicio img{
+    width: 100%;
+    height: 100%;
+    
+    -moz-filter:opacity(50%);
+    -webkit-filter:opacity(50%);
+    filter:opacity(50%);
+}
+.servicio:hover img{
+    transition:all .7s ease-in-out;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    -moz-filter:opacity(1);
+    -webkit-filter:opacity(1);
+    filter:opacity(1);
+}
+.servicio .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+.servicio h2{
+    font-size: 25px;
+    background: #6E6E6E;
+    width: 50%;
+}
+@media (min-width:480px){
+    .servicio h2{
+        font-size: 45px;
+        width: 50%;
+    }
+
+}
+@media (min-width:768px){
+    .servicio{
+        height: 300px;
+        overflow: hidden;
+    }
+    .servicio img{
+        height: auto;
+        margin-top: -100px;
+    }
+    .servicio h2{
+
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .servicio img{
+        margin-top: -250px;
+    }
+    .servicio h2{
+        width: 30%;
+    }
+}
+/*Cajas*/
+.cajas{
+    margin-top: 0px;
+}
+
+/*QUE ES CROWD*/
+/*Cajas*/
+.cajas2{
+    margin-top: 0px;
+}
+.contenedor22{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+
+}
+#cont212{
+    padding: 0;
+    margin-bottom: 5%;
+    min-height: 100%;
+    min-width: 100%;
+    float: left;   
+
+}
+.adjust2{
+    width: 100%;
+    overflow: hidden;
+}
+.adjust12{
+   width: 50%;
+    
+    padding: 0px;
+    float: left;
+    box-sizing: border-box; 
+}
+.adjust12 img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    -moz-filter:opacity(100%);
+    -webkit-filter:opacity(100%);
+    filter:opacity(100%);
+}
+.adjust22{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+@media(max-width:800px){
+    .adjust12{
+        width: 100%;
+    } 
+    .adjust22{
+        width: 100%;
+    }
+}
+
+#Enviar{
+    position: absolute;
+    color: white;
+    left: 45%;
+    cursor: pointer;
+    background: #6e1217;
+    border-radius: 10px;
+    height: 45px;
+    width: 150px;
+}
+
+#Enviar:hover{
+    background: #999999;
+    color: white;
+}
+
+.div3pag2{
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    background-color: #6e1217;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+    text-align: justify;
+}
+
+.lista{
+    position: absolute;
+    text-align: justify;
+    left: 2%;
+}
+
+#gris{
+    color: gray;
+}
+
+#tituloAcerca{
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+progress[value]{
+    appearance: none;
+-webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+background-color: #000;
+}
+progress[value]::-webkit-progress-value {
+background-color: #6e1217;
+}
+progress{
+    border-radius: 30px;
+    width: 80%;
+}
+.Don{
+    width: 30%;
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    
+    height: 40px;
+}
+.Don:hover{
+    background: #8A0829;
+}
+.Don2{
+    width: 7%;
+   
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    
+    height: 20px;
+}
+.Don2:hover{
+    background: #8A0829;
+}
+

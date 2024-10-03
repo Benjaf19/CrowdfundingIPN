@@ -1,0 +1,1068 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/11/2018, 08:02:56 AM
+    Author     : Juan Antonio Chavez Xolalpa
+                Derechos reservados por Novasoft S.A. de C.V.
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+/*Contenedores responsive */
+
+/*LOGGIN*/
+.form-register{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #D8D8D8;   
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%); 
+    border-radius: 10px;
+}
+.contenedor-inputs{
+    padding: 0 30px;
+}
+#caja{
+    width: 100%;
+    display: block;
+    height: 200px;
+    margin-top: 8%;
+}
+/*#entrar{
+    width: 100%;
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+#entrar:hover{
+    background: red;
+}*/
+
+.list{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+#ticks{
+    background-color: #6e1217;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    width: 100px;
+     -webkit-box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.52);
+-moz-box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.52);
+box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.52);
+}
+
+
+
+/*CREAR USUARIO*/
+.formuB{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;   
+    -moz-filter:opacity(100%);
+    -webkit-filter:opacity(100%);
+    filter:opacity(100%); 
+    border-radius: 10px;
+}
+
+.encuadSol{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;   
+}
+
+.encuadSol2{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #87CEEB;   
+}
+
+.encuadSol3{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background:#D3D3D3;   
+}
+
+.sizeforo{
+    height: 40vh;
+}
+
+.formuRT{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;   
+    -webkit-box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.52);
+-moz-box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.52);
+box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.52);
+    -moz-filter:opacity(100%);
+    -webkit-filter:opacity(100%);
+    filter:opacity(100%); 
+    border-radius: 10px;
+}
+
+.formuFORO{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.contenint{
+    padding: 0 30px;
+}
+#encaps{
+    width: 100%;
+    display: block;
+    height: 200px;
+    margin-top: 2%;
+}
+#registra{
+    width: 100%;
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    
+    height: 40px;
+}
+#registra:hover{
+     background: #8A0829;
+}
+
+/*informacion de usuario*/
+.formuC{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;   
+    -moz-filter:opacity(100%);
+    -webkit-filter:opacity(100%);
+    filter:opacity(100%); 
+    border-radius: 5px;
+}
+.contenint{
+    padding: 0 30px;
+}
+#encaps2{
+    width: 100%;
+    display: block;
+    
+    margin-top: -5%;
+    margin-bottom: 30%;
+   height: 90vh;
+}
+@media (min-width:1024px){
+    #encaps2{
+        height: 50vh;
+           }
+}
+#encapsRT{
+    width: 100%;
+    display: block;
+    
+    margin-top: 5%;
+    margin-bottom: 30%;
+   height: 90vh;
+}
+@media (min-width:1024px){
+    #encapsRT{
+        height: 90vh;
+           }
+}
+#encapsRT2{
+    width: 100%;
+    display: block;
+    
+    margin-top: 5%;
+    margin-bottom: -30%;
+   height: 90vh;
+}
+@media (min-width:1024px){
+    #encapsRT2{
+        height: 90vh;
+           }
+}
+#encapsFORO{
+    width: 100%;
+    display: block;
+    
+    margin-top: 5%;
+    margin-bottom: 30%;
+   height: 50vh;
+}
+@media (min-width:1024px){
+    #encapFORO{
+        height: 50vh;
+           }
+}
+#encaps4{
+    width: 100%;
+    display: block;
+    
+    margin-top: 1%;
+    margin-bottom: 1%;
+   height: 20vh;
+}
+@media (min-width:1024px){
+    #encaps4{
+        height: 10vh;
+           }
+}
+#encaps3{
+    width: 100%;
+    display: block;
+    
+    margin-top: -15%;
+    margin-bottom: 10%;
+   height: 90vh;
+}
+@media (min-width:1024px){
+    #encaps3{
+        height: 45vh;
+           }
+}
+#encapsSol{
+    width: 100%;
+    display: block;
+    
+    margin-top: 10%;
+    margin-bottom: 0%;
+   height: 90vh;
+}
+@media (min-width:1024px){
+    #encapsSol{
+        height: 30vh;
+           }
+}
+#encapsSol2{
+    width: 100%;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 1%;
+   height: 90vh;
+}
+@media (min-width:1024px){
+    #encapsSol2{
+        height: 10vh;
+           }
+}
+
+#modifica,#cancelar,#guardacambios{
+    width: 100%;
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    height: 40px;
+}
+#modifica:hover,#cancelar:hover,#guardacambios:hover{
+    background: #8A0829;
+}
+#boxbutton{
+    background: transparent;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+}
+.alignb{
+    margin: 20px;
+}
+#boxbutton .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width:480px){
+    .alignb{
+        width: auto;
+    }
+}
+@media (min-width:1024px){
+    .alignb{
+        width: auto;
+    }
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+/*crear proyecto*/
+#crear{
+    width: 100%;
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    
+    height: 40px;
+}
+#crear:hover{
+    background: #8A0829;
+}
+
+/*registrar donacion*/
+#donar{
+    width: 100%;
+    cursor: pointer;
+    background: #6e1217;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+#donar:hover{
+    background: red;
+}
+
+/*proyectos*/
+#boxbutton2{
+    background: transparent;
+    color:#fff;
+    text-align: center;
+    padding: 50px;
+}
+.alignc{
+    margin: 10px;
+    max-width:  500px;
+}
+#boxbutton2 .contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width:480px){
+    .alignc{
+        width: auto;
+        
+    }
+}
+@media (min-width:1024px){
+    .alignc{
+        width: auto;
+           }
+}
+.contenedor2{
+    width: 99%;
+    margin: auto;
+}
+
+/*DISEÑO DE LOGGIN BOOTSTRAP*/
+.account-box
+{
+    border: 2px solid rgba(153, 153, 153, 0.75);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+    z-index: 3;
+    font-size: 14px !important;
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+@media (min-width:480px){
+    .account-box{
+        margin-top: 20%;
+    }
+}
+@media (min-width:1024px){
+    .account-box{
+         margin-top: 30%;
+    }
+}
+.logo
+{
+    width: 200px;
+    height: 24vh;
+    text-align: center;
+    margin: auto;
+    background-position: 0px -4px;
+    
+}
+.logo img{
+    width: 200px;
+    position: absolute;
+    display: block;
+    height: 24vh;
+    
+}
+.forgotLnk
+{
+    margin-top: 10px;
+    display: block;
+}
+
+.purple-bg
+{
+    background-color: #6e1217;
+    color: #fff;
+    
+}
+.or-box
+{
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    margin-top:20px;
+}
+.or
+{
+    color: #666666;
+    background-color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 40px;
+    left: 130px;
+}
+.account-box .btn:hover
+{
+    color: #fff;
+}
+.btn-facebook
+{
+    background-color: #3F639E;
+    color: #fff;
+    font-weight:bold;
+}
+.btn-google
+{
+    background-color: #454545;
+    color: #fff;
+    font-weight:bold;
+}
+
+/*ESTILO DE IMAGENES DE INICIO POR MODULO*/
+#banner{
+    
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+#banner .banderita{
+    position: absolute;
+    top: 30%;
+    left:  55%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+#banner h2{
+    font-size: 28px;
+}
+
+
+@media (min-width:480px){
+    #banner h2{
+        font-size: 48px;
+    }
+   
+}
+@media (min-width:768px){
+    #banner{
+        height: 300px;
+        overflow: hidden;
+    }
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+@media (min-width:1024px){
+    #banner img{
+        margin-top: -500px;
+    }
+    #banner .banderita{
+        left: 85%;
+    }
+}
+.banderita{
+   
+    width: 98%;
+    margin: auto;
+
+}
+
+/*OPCIONES EN INFORMACION DE USUARIO*/
+/*Servicios*/
+
+.servicio{
+    position: relative;
+   overflow: hidden;
+   margin: 0;
+}
+.servicio img{
+    width: 100%;
+    height: 100%;
+    
+    -moz-filter:opacity(50%);
+    -webkit-filter:opacity(50%);
+    filter:opacity(50%);
+}
+.servicio:hover img{
+    transition:all .7s ease-in-out;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    -moz-filter:opacity(1);
+    -webkit-filter:opacity(1);
+    filter:opacity(1);
+}
+.servicio .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+.servicio h2{
+    font-size: 25px;
+    background: #6E6E6E;
+    width: 50%;
+}
+@media (min-width:480px){
+    .servicio h2{
+        font-size: 45px;
+        width: 50%;
+    }
+
+}
+@media (min-width:768px){
+    .servicio{
+        height: 300px;
+        overflow: hidden;
+    }
+    .servicio img{
+        height: auto;
+        margin-top: -100px;
+    }
+    .servicio h2{
+
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .servicio img{
+        margin-top: -250px;
+    }
+    .servicio h2{
+        width: 30%;
+    }
+}
+/*Cajas*/
+.cajas{
+    margin-top: 0px;
+}
+
+/*Estilo de la imagen principal*/
+.primer{
+    
+    background-image: url("../IMG/esime2.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.contnom{
+    padding: 1%;
+    width: 50%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    text-align: center;
+    background-color: black;
+    font-size: 18px; 
+    font-family: Arial;
+    color: #ffffff;
+}
+@media(max-width:480px){
+    .primer{
+        height: 600px;
+    }
+    .contnom{
+        margin-top: 250px;
+        font-size: 32px; 
+        margin-left: 35px;
+        width: 80%;
+    }
+}
+@media (min-width:480px){
+    .primer{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .primer{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .primer{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+.posicion{
+    position:absolute;
+    top:9%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    margin-top:16px!important;
+    display:inline-block;
+    width:auto;
+    text-align:center!important;
+}
+.letratitulo{
+    font-size:36px!important;
+}
+.title{
+    color:#fff!important;
+    background-color:#000!important;
+    padding:8px 16px!important;
+    opacity: .75;
+}
+
+
+/*ALTA USUARIO DISEÑO*/
+.segundo{
+    
+    background-image: url("../IMG/escom.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.segundo img{
+    top: -10%;
+}
+@media(max-width:480px){
+    .segundo{
+        height: 600px;
+    }
+    .segundo{
+        margin-top: 250px;
+        font-size: 32px; 
+        margin-left: 35px;
+        width: 80%;
+    }
+}
+@media (min-width:480px){
+    .segundo{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .segundo{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .segundo{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+
+/*ALTA PAYPAL DISEÑO*/
+.tercero{
+    
+    background-image: url("../IMG/biblioteca.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.tercero img{
+    top: -10%;
+}
+@media(max-width:480px){
+    .tercero{
+        height: 600px;
+    }
+    .tercero{
+        margin-top: 250px;
+        font-size: 32px; 
+        margin-left: 35px;
+        width: 80%;
+    }
+}
+@media (min-width:480px){
+    .tercero{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .tercero{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .tercero{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+
+
+/*ALTA TARJETA DISEÑO*/
+.cuarto{
+    
+    background-image: url("../IMG/esm.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.cuarto img{
+    top: -5%;
+}
+@media(max-width:480px){
+    .cuarto{
+        height: 600px;
+    }
+    .contnom{
+        margin-top: 250px;
+        font-size: 32px; 
+        margin-left: 35px;
+        width: 80%;
+    }
+}
+@media (min-width:480px){
+    .cuarto{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .cuarto{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .cuarto{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+
+/*ALTA COLABORADOR*/
+.quinto{
+    
+    background-image: url("../IMG/upibi.JPG");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.quinto img{
+    top: -5%;
+}
+@media(max-width:480px){
+    .quinto{
+        height: 600px;
+    }
+    .contnom{
+        margin-top: 250px;
+        font-size: 32px; 
+        margin-left: 35px;
+        width: 80%;
+    }
+}
+@media (min-width:480px){
+    .quinto{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .quinto{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .quinto{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+
+/*ALTA DONACION*/
+.sexto{
+    
+    background-image: url("../IMG/escom.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.sexto img{
+    top: -10%;
+}
+@media(max-width:480px){
+    .sexto{
+        height: 600px;
+    }
+    
+}
+@media (min-width:480px){
+    .sexto{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .sexto{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .sexto{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+
+/*Estilo de SEPTIMO*/
+.septimo{
+    
+    background-image: url("../IMG/zacatenco5.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-filter:opacity(70%);
+    -webkit-filter:opacity(70%);
+    filter:opacity(70%);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0;
+    overflow: hidden;
+    padding: 5%;
+}
+.septimo{
+    padding: 1%;
+    width: 50%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    text-align: center;
+    background-color: black;
+    font-size: 18px; 
+    font-family: Arial;
+    color: #ffffff;
+}
+@media(max-width:480px){
+    .septimo{
+        height: 600px;
+    }
+    .contnom{
+        margin-top: 250px;
+        font-size: 32px; 
+        margin-left: 35px;
+        width: 80%;
+    }
+}
+@media (min-width:480px){
+    .septimo{
+        height: 900px;
+    }
+    .contnom{
+        margin-top: 350px;
+        font-size: 36px; 
+    }
+}
+
+@media(min-width:768px){
+    .septimo{
+        height: 999px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 38px; 
+
+    }
+}
+
+@media(min-width:1024px){
+    .septimo{
+        height: 400px;
+    }
+    .contnom{
+        margin-top: 380px;
+        font-size: 35px; 
+        width: 50%;
+    }
+}
+
